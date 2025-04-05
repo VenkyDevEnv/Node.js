@@ -12,3 +12,5 @@ customEmitter.on('click', () => {
 })
 
 customEmitter.emit('click', 'john', 58);
+
+// {path:'secondComp', loadChildren : () => import('./feature/feature.module').then(m => m.Featuremodule)
