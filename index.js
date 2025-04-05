@@ -13,6 +13,7 @@ function flatArr(arr){
     }
     helper(arr)
     return results
+    
 }
 
 console.log(flatArr(a))
